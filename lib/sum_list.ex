@@ -1,4 +1,6 @@
 defmodule SumList do
+  def call(list), do: sum(list, 0)
+
   def sum([], acc) do
     acc
   end
